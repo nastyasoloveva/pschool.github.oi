@@ -1,0 +1,20 @@
+
+#ball
+{
+position: absolute;
+width: 104px;
+height: 104px;
+
+
+cursor: pointer;	
+}
+#bot
+{
+
+width: 856px;
+left: 86px;
+top: 243px;
+ height: 400px;
+  border-bottom: 6px #58544E groove;
+  position: relative;
+}

@@ -1,0 +1,55 @@
+
+#fen
+{
+position: absolute;
+width: 213px;
+height: 174px;
+left: 365px;
+top: 565px;
+cursor: pointer;
+}
+#sharik
+{
+position: absolute;
+width: 45px;
+height: 46px;
+left: 447px;
+top: 550px;
+transition: top 3s ease-in-out;
+transition: left 1s ease-in-out;
+}
+#air
+{
+	opacity: 0;
+width: 217px;
+height: 306.69px;
+left: 361px;
+top: 318px;
+
+}
+p.exp2
+{
+	margin-right: 50px;
+	position: absolute;
+	top:782px;
+	left: 52px;
+}
+#plane
+{
+position: absolute;
+width: 633px;
+height: 225px;
+left: 303px;
+top: 1013px;
+cursor: pointer;
+}
+#warm
+{
+	cursor: pointer;
+	position: absolute;
+width: 475px;
+height: 384px;
+left: 78px;
+top: 918px;
+
+}
