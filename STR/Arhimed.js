@@ -1,4 +1,6 @@
-
+var teloTop = document.getElementById('telo').offsetTop;
+var teloHeight = document.getElementById('telo').offsetHeight;
+var waterTop = document.getElementById('water').offsetTop;
 telo.onclick = function(){
  this.onclick = null;
  
@@ -7,16 +9,16 @@ telo.onclick = function(){
       let timer = setInterval(function() {
         let timePassed = Date.now() - start;
         
-       
-
-        telo.style.top = 252 + timePassed / 10 + 'px';
+           telo.style.top = teloTop + timePassed / 10 + 'px';
         if (timePassed > 500){
-        	water.style.top = 586 - timePassed / 13 + 'px';
-  water.style.height =  timePassed / 13 + 'px';
-  stru.style.opacity=1;
+        	water.style.top = waterTop - timePassed / 13 + 'px';
+          water.style.height =  timePassed / 13 + 'px';
+          stru.style.opacity=1;
+        var waterHeightNow = document.getElementById('water').offsetHeight;
+
         }
 
-        if (timePassed > 1620){ clearInterval(timer);
+        if ( waterHeightNow > teloHeight){ clearInterval(timer);
         	       	
         	stru.style.opacity=0;
         	}
@@ -24,6 +26,8 @@ telo.onclick = function(){
    
 
 }
+var shipLeft= document.getElementById('ship').offsetLeft;
+var exp12Left= document.getElementById('exp12').offsetLeft;
 ship.onclick = function(){
  
 	let start = Date.now();
@@ -31,9 +35,10 @@ ship.onclick = function(){
       let timer = setInterval(function() {
         let timePassed = Date.now() - start;
         
-               ship.style.left = 516 - timePassed / 5 + 'px';
+               ship.style.left = shipLeft - timePassed / 5 + 'px';
+            var shipLeftNow= document.getElementById('ship').offsetLeft;   
 
-        if (timePassed > 2000) clearInterval(timer);
+        if (timePassed > 2000 || shipLeftNow < exp12Left)  clearInterval(timer);
          }, 20);
    
 

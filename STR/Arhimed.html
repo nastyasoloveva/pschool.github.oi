@@ -10,33 +10,49 @@
 </head>
 <body bgcolor="5C636E">
 	<div class="header">
-		<div><img class="header" src="../picture/iko2.png" alt="ikon"></div><div>
-<h1><a class="h1" href="../index.html">Школьная физическая лаборатория</a></h1></div>
+		<div><img class="header" src="../picture/iko2.png" alt="ikon"></div>
+		<div><h1><a class="h1" href="../main.html">Школьная физическая лаборатория</a></h1></div>
+		<div class="burger-menu">
+    <input id="menu-toggle" type="checkbox" />
+    <label class="menu-btn" for="menu-toggle">
+      <span></span>
+    </label>
+     <ul class="menubox">
+            <li><a class="menu-item" href="Pascal.html">Закон Паскаля</a></li>
+            <li><a class="menu-item" href="Bernuli.html">Закон Бернули</a> </li>
+            <li><a class="menu-item" href="Miror.html">Закон отражения</a></li>
+            <li><a class="menu-item" href="Save.html">Закон сохранения энергии</a></li>
+            </ul>
+  </div>
 	</div>
+<div class="body">
 	<div class="list"  style="height: 1277px;" >
 		<h3>Физические законы:</h3>
 		<ul>
 		<li><a href="Pascal.html">Закон Паскаля</a></li>
 		<li><a href="Bernuli.html">Закон Бернули</a> </li>
 		<li class="here">Закон Архимеда</li>
-		<li><a href="Save.html">Закон сохранения энергии</a></li>
 		<li ><a href="Miror.html">Закон отражения</a></li>
+		<li><a href="Save.html">Закон сохранения энергии</a></li>
 		</ul>
 	</div>
 	<div class="exp" style="height: 1277px;">
 	 <h3 class="exp">Закон Архимеда</h3>
-	 <p class="exp1"><b>На тело, погруженное в жидкость или окруженное газом, действует выталкивающая сила равная весу вытесненной жидкости или газа.</b><br/>То есть, если тело полностью погрузить в воду, оно вытолкнет воду обьемом равного обьему тела.
-</p>
-		
+	 <p class="exp1"><b>На тело, погруженное в жидкость или окруженное газом, действует выталкивающая сила равная весу вытесненной жидкости или газа.</b><br/>То есть, если тело полностью погрузить в воду, оно вытолкнет воду обьемом равного обьему тела.</p>
+		<div id="exp11">
 	 	<img id="glass" src="../picture/arhimed.png">
 	 	<img id="water" src="../picture/arhwater.png">
 	 	<img id="stru" src="../picture/arhstru.png">
 	 	<img id="telo" src="../picture/cub.png">
+	 </div>
 	 	<p class="exp2">Этот закон позволяет плавать кораблям.</p>
+	 	<div id="exp12">
 	 	<img id="ship" src="../picture/ship.png">
 	 	<img id="voln" src="../picture/volns.png">
-<script src="Arhimed.js"></script>
 
+<script src="Arhimed.js"></script>
+</div>
 	</div>
+</div>
 </body>
 </html>

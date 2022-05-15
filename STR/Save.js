@@ -18,7 +18,7 @@
 
     ball.onclick = function() {
 
-      let height = bot.clientHeight - ball.clientHeight;
+      let height = exp11.clientHeight - ball.clientHeight;
       let width = 250;
 
       animate({

@@ -1,62 +1,166 @@
+@media screen and (max-width: 605px)
+{
+#exp11
+{
+left: 5%;
+}
 #telo
 {
-	cursor: pointer;
-	position: absolute;
-width: 122px;
-height: 122px;
-left: 355px;
-top: 252px;
+width: 83px;
+height: 83px;
+left: 85px;
+top: 22px;
 }
 #water
 {
-	position: absolute;
+width: 84px;
+height: 0px;
+left: 275px;	
+top: 245px;
+}
+#stru
+{
+width: 157px;
+height: 113px;
+left: 183px;
+top: 138px;
+}
+#glass
+{
+width: 332px;
+height: 200px;
+left: 28px;
+top: 99px;
+}
+}
+@media screen and (min-width: 605px)
+{
+#exp11
+{
+left: 12%;
+}
+#telo
+{
+width: 122px;
+height: 122px;
+left: 94px;
+top: 52px;
+}
+#water
+{
 width: 123px;
 height: 0px;
-left: 650px;	
-top: 585px;
-
-
+left: 389px;	
+top: 371px;
+}
+#stru
+{
+width: 229px;
+height: 165px;
+left: 243px;
+top: 203px;
+}#glass
+{
+width: 486px;
+height: 292px;
+left: 28px;
+top: 149px;
+}
+}
+#exp11
+{
+position: relative;
+width: 40%;
+height: 368px;
+top: 7px;
+}
+#telo
+{
+cursor: pointer;
+position: absolute;
+}
+#water
+{
+position: absolute;
 }
 
 #stru
 {
-	 opacity: 0; 
-	position: absolute;
-width: 229px;
-height: 165px;
-left: 504px;
-top: 403px;
+opacity: 0; 
+position: absolute;
 }
 #glass
 {
-	position: absolute;
-width: 486px;
-height: 292px;
-left: 289px;
-top: 349px;
+position: absolute;
 }
 p.exp2
 {
-	position: absolute;
-	top:708px;
-	left: 60px;
+	position: relative;
+	margin: 10px 40px;
+	top:92px;
+	
 
 }
-#ship
+#exp12
 {
-width: 437px;
-height: 351px;
-left: 516px;
-cursor: pointer;
-top: 835px;
+position: relative;
+width: 90%;
+height: 268px;
+left: 10px;
+top: 17px;
+}
+@media screen and (max-width: 605px)
+{#ship
+{
+left: 20%;
+height: 261px;
+width: 337px;
 
 }
 #voln
 {
-width: 899px;
+height: 59px;
+top: 315px;
+}}
+@media screen and (max-width: 1115px) and (min-width: 605px)
+{#ship
+{
+left: 25%;
+height: 311px;
+width: 407px;
+
+}
+#voln
+{
+height: 69px;
+top: 355px;
+}}
+@media screen and (min-width: 1115px)
+{#ship
+{
+left: 45%;
+height: 351px;
+width: 437px;
+
+}#voln
+{
 height: 109px;
-left: 108px;
-top: 1105px;
+top: 375px;
+}
+}
+#ship
+{
+	position: absolute;
+cursor: pointer;
+top: 105px;
+
+}
+#voln
+{
+position: absolute;
+width: 100%;
+left: 8px;
+
 }
 
 	

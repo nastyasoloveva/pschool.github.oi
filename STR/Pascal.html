@@ -11,30 +11,45 @@
 <body bgcolor="5C636E">
 
 	<div class="header">
-		<div><img class="header" src="../picture/iko2.png" alt="ikon"></div><div>
-<h1><a class="h1" href="../index.html">Школьная физическая лаборатория</a></h1></div>
+		<div><img class="header" src="../picture/iko2.png" alt="ikon"></div>
+		<div><h1><a class="h1" href="../main.html">Школьная физическая лаборатория</a></h1></div>
+		<div class="burger-menu">
+    <input id="menu-toggle" type="checkbox" />
+    <label class="menu-btn" for="menu-toggle">
+      <span></span>
+    </label>
+ 
+    <ul class="menubox">
+            <li><a class="menu-item" href="Bernuli.html">Закон Бернули</a> </li>
+            <li><a class="menu-item" href="Arhimed.html">Закон Архимеда</a></li>
+            <li><a class="menu-item" href="Miror.html">Закон отражения</a></li>
+            <li><a class="menu-item" href="Save.html">Закон сохранения энергии</a></li>
+            </ul>
+  </div>
 	</div>
-	<div class="list" style="height: 1307px;">
+<div class="body">
+	<div class="list" >
 		<h3>Физические законы:</h3>
 		<ul>
-		<li  class="here">Закон Паскаля</li>
+		<li class="here">Закон Паскаля</li>
 		<li><a href="Bernuli.html">Закон Бернули</a> </li>
 		<li><a href="Arhimed.html">Закон Архимеда</a></li>
-		<li><a href="Save.html">Закон сохранения энергии</a></li>
 		<li><a href="Miror.html">Закон отражения</a></li>
+		<li><a href="Save.html">Закон сохранения энергии</a></li>
 		</ul>
 	</div>
-	<div class="exp" style="height: 1307px;">
+	<div class="exp">
 	 <h3 class="exp">Закон Паскаля</h3>
 	 <p class="exp1"><b>Сила давления в жидкостях и газах передается одинаково по всем направлениям.</b><br/>Скучновато и не очень понятно.<br/>Этот закон проще показать.<br/>Когда мы надуваем шарик, шарик раздувается одинаково во всех направлениях, поэтому он такой круглый. </p>
 	 <div id="exp11">
 	 	<img id="rul" src="../picture/rul.png">
 	 	<img id="nasos" src="../picture/nasos.png">
 	 	<img id="shar" src="../picture/shar.png">
-<script src="Pascal.js"></script>
+	<script src="Pascal.js"></script>
 	 </div>
+
 	 <p class="exp2">Ещё один способ увидеть действия этого закона - налить жидкость в сообщающие сосуды. Какой бы формы они не были эти сосуды, уровень жидкости в них всегда будет одинаковый. </p>
-	 
+	 <div id="exp12">
 	 	<img id="water" src="../picture/water.png">
 	 	<img id="glass" src="../picture/glass.png">
 	 	<img id="kran" src="../picture/cran.png">
@@ -42,7 +57,8 @@
 
 	 <script src="Pascal.js"></script>
 	</div>
-	
+	</div>
+</div>	
 		
 	
 </body>
