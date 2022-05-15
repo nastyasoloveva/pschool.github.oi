@@ -123,7 +123,7 @@ margin: 16px;
   top: -100%;
   right: 0;
   width: 330px;
-  height: 230px;
+  height: 0px;
   padding: 80px 0;
   list-style: none;
   z-index: 2;
@@ -166,6 +166,7 @@ margin: 16px;
 #menu-toggle:checked ~ .menubox{
   visibility: visible;
   top: 0;
+  height: 230px;
 }
 }
 .body
